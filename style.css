@@ -9,6 +9,12 @@
   margin: 50px;
 }
 
+.search:active {
+  background-color: rgb(21, 157, 159);
+  color: white;
+  transform: translateY(4px);
+}
+
 .plus {
   width: 50px;
   height: 50px;
@@ -19,13 +25,27 @@
   margin: 50px;
 }
 
+.plus:active {
+  background-color: white;
+  color: rgb(21, 157, 159);
+  transform: translateY(4px);
+}
+
 .createAccount {
   width: 230px;
   height: 50px;
   color: white;
   background-color: rgb(43, 120, 228);
+  border-color: black;
   font-size: 20px;
   margin: 50px;
+  box-shadow: 10px 5px 5px black;
+}
+
+.createAccount:active {
+  background-color: white;
+  color: rgb(43, 120, 228);
+  transform: translateY(4px);
 }
 
 div {
